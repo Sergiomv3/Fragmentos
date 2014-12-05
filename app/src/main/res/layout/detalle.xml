@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:touchscreenBlocksFocus="false">
+
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="67dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/househome"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contacto"
+        android:id="@+id/tipo"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/direccion"
+        android:layout_below="@+id/tipo"
+        android:layout_alignLeft="@+id/tipo"
+        android:layout_alignStart="@+id/tipo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Direccion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="15000 €"
+        android:id="@+id/precio"
+        android:layout_below="@+id/direccion"
+        android:layout_alignRight="@+id/direccion"
+        android:layout_alignEnd="@+id/direccion"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

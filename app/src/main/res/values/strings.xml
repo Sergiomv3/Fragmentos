@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fragment2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_add">Añadir un inmueble</string>
+    <string name="action_guardar">Guardar inmuebles</string>
+    <string name="action_cargar">cargar inmuebles</string>
+    <string name="action_settings">Opciones</string>
+    <string name="title_activity_secundaria">Secundaria</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_titulodialogo">Añadir inmueble</string>
+    <string name="tv_titulodialogoEdit">Editar inmueble</string>
+    <string name="tv_Tipo">Tipo inmueble:</string>
+    <string name="tv_Direccion">Dirección:</string>
+    <string name="tv_Precio">Precio:</string>
+    <string name="menu_borrar">Borrar inmueble</string>
+    <string name="menu_editar">Editar inmueble</string>
+    <string name="boton_Foto">Añadir imagen</string>
+    <string name="borrarfoto">Eliminar imagen</string>
+
+</resources>
